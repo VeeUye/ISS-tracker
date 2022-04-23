@@ -1,26 +1,30 @@
-# Express Bootstrap
+# ISS Tracker 🛰️
 
-This project is a boilerplate for Node.js/Express applications. It also comes included with Jest, and Supertest for end-to-end testing.
+This project intracts with [WTIA?] API to gather location data for the International Space Station.
 
-## Getting started
+## Installation
 
-Ensure your Visual Studio Code application is up to date, and that you have the [ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) installed and enabled.
+To run ISS Tracker in your local environment:
 
-Replace `your-project-folder-name` with the folder name you wish to create for your project and run the below inside your `Projects` folder.
+1. [Clone this repo](https://github.com/VeeUye/ISS-tracker) (instructions on cloning repos [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository))
+2. Open the index.html file in the cloned repo in your preferred browser.
 
-```bash
-git clone git@github.com:MCRcodes/express-bootstrap.git your-project-folder-name
-cd your-project-folder-name
-npm install
-npm start
-```
+## Framework
 
-Visit [http://localhost:3000/] in your browser and you should see `Hello world!`. You can dive in and start coding your own routes in `src/app.js`.
+- JavaScript
 
-## Running tests
+## Roadmap
 
-You can run tests with the `npm test` command.
+- [ ] Render location of ISS on map
+- [ ] Add user location
+- [ ] Display proximity of ISS to user location
 
-## Remember: READMEs are important!
+## Contributions
 
-When you're finished, be sure to rewrite this one so it's more specific to your project.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## Project Status
+
+Active!
