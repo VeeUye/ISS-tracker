@@ -6,8 +6,10 @@ async function getData() {
   try {
     const res = await fetch('https://api.wheretheiss.at/v1/satellites/25544');
     const jsonResult = await res.json();
-    result.innerText = JSON.stringify(`Lat: ${jsonResult.latitude}`, null, 2);
-    result2.innerText = JSON.stringify(`Lon: ${jsonResult.longitude}`, null, 2);
+    const str1 = JSON.stringify(`Latitude ${jsonResult.latitude}`, null, 2);
+    const str2 = JSON.stringify(`Longitude ${jsonResult.longitude}`, null, 2);
+    result.innerText = str1;
+    result2.innerText = str2;
   } catch (error) {
     console.log(error);
   }

@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ISS-tracker</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
-      <button id="fetchdata">Find ISS</button>
-      <br />
-      <br />
-      <div id="result"></div>
-      <div id="result2"></div>
+    <div class="container">
+      <div class="button-hold">
+        <button id="fetchdata">Find ISS</button>
+        <div class="results" id="result"></div>
+        <div class="results" id="result2"></div>
+      </div>
     </div>
+
     <script src="./tracker.js"></script>
   </body>
 </html>
