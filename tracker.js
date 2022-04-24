@@ -1,8 +1,9 @@
 const findISSButton = document.querySelector('#fetchdata');
 const result = document.querySelector('#result');
+const result2 = document.querySelector('#result2');
 async function getData() {
   result.innerText = 'Tracking...';
-  result2.innerText = '';
+  result2.innerText = '\r';
   try {
     const res = await fetch('https://api.wheretheiss.at/v1/satellites/25544');
     const jsonResult = await res.json();
